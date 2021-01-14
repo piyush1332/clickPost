@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="center_container clear_fix">
+		<header class="header">
+			<div class="header_logo">
+				<img src="assets/images/header_logo.png" class="header_logo_image" alt="">
+			</div>
+		</header>
+		<div class="order_information_card">
+			<div class="order_status" id="order_status"></div>
+			<div class="arival_status" id="arriving_month"></div>
+			<div class="share_link">
+				<i class="fa fa-share" aria-hidden="true"></i>
+				<span><a href="#">Share the link</a></span>
+			</div>
+			<div class="date_section">
+				<div class="order_day" id="arriving_day"></div>
+				<div class="order_date" id="arriving_date"></div>
+			</div>
+			<div class="shipping_status" id="shiped_from"></div>
+			<div class="package_status">
+				<div class="fa_info_icon_custom_outter_ring"><i class="fa fa-info" aria-hidden="true"></i>
+				</div>
+				<span>Status of the package</span>
+			</div>
+		</div>
+		<div class="card_toggle_buttons clear_fix accordian_box_shadow">
+			<div class="shipment_details" id="shipment_details_tab">View Shipment details</div>
+			<div class="take_action" id="take_action_tab">Take actions</div>
+		</div>
+		<div class="accordian_options">
+			<div class="reschedule_delivery accordian_tab accordian_box_shadow" id="reschedule_delivery_tab">
+				<i class="fa fa-clock-o" aria-hidden="true"></i>
+				<span>Reschedule The Delivery</span>
+				<i class="fa fa-angle-right arrow_float_right" aria-hidden="true"></i>
+			</div>
+			<div class='reschedule_delivery_content accordian_content'>Lorem ipsum, dolor sit, amet consectetur
+				adipisicing elit. Voluptate, explicabo a magnam ducimus debitis, perspiciatis eius repellat sequi fuga?
+				Eligendi voluptas inventore eius possimus porro? Voluptas quae eveniet explicabo voluptatum!</div>
+
+			<div class="pickup_courier accordian_tab accordian_box_shadow" id="pickup_courier_tab">
+				<i class="fa fa-truck" aria-hidden="true"></i>
+				<span>Pick up from the last Hub / Courier</span>
+				<i class="fa fa-angle-right arrow_float_right" aria-hidden="true"></i>
+			</div>
+			<div class='pickup_courier_content accordian_content'>Lorem ipsum, dolor sit, amet consectetur adipisicing
+				elit. Voluptate, explicabo a magnam ducimus debitis, perspiciatis eius repellat sequi fuga? Eligendi
+				voluptas inventore eius possimus porro? Voluptas quae eveniet explicabo voluptatum!</div>
+
+			<div class="delivery_updates accordian_tab accordian_box_shadow" id="delivery_updates_tab">
+				<i class="fa fa-bell-o" aria-hidden="true"></i>
+				<span>Get delivery updates</span>
+				<i class="fa fa-angle-right arrow_float_right" aria-hidden="true"></i>
+			</div>
+			<div class='delivery_updates_content accordian_content'>Lorem ipsum, dolor sit, amet consectetur adipisicing
+				elit. Voluptate, explicabo a magnam ducimus debitis, perspiciatis eius repellat sequi fuga? Eligendi
+				voluptas inventore eius possimus porro? Voluptas quae eveniet explicabo voluptatum!</div>
+		</div>
+		<div class="order_details_section">
+			<div class="order_details_header">
+				<span class="order_detail_label">Order Details</span>
+				<span class="share_product_label">
+					<i class="fa fa-share" aria-hidden="true"></i>
+					<span><a href="#">Share the product</a></span>
+				</span>
+			</div>
+			<div class="order_information">
+				<div class="order_image" id="order_image_holder">
+					<img src="" alt="">
+				</div>
+				<div class="order_data">
+					<div class="order_name" id="product_name"></div>
+					<div class="order_discription " id="product_discription"></div>
+					<div class="order_size_and_quantity" id="product_size"></div>
+					<div class="order_prize" id="product_price"></div>
+				</div>
+			</div>
+		</div>
+		<div class="post_suggestion_section">
+			<div class="post_suggestion_label">
+				<h3>You May Also Like</h3>
+			</div>
+			<div class="sugestion_card_holder" id="sugestion_card_holder">
+				
+			</div>
+		</div>
+	</div>
+	<script src="assets/javaScript/script.js"></script>
+</body>
+
+</html>
